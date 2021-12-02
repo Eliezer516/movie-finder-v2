@@ -17,6 +17,11 @@ Use a better box model (opinionated).
   box-sizing: border-box;
 }
 
+.input-radio:checked ~ .radio {
+  color:white;
+  background-color: green;
+}
+
 /**
 Use a more readable tab size (opinionated).
 */
